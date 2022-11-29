@@ -1,0 +1,22 @@
+1669466188802	geckodriver	INFO	Listening on 127.0.0.1:56105
+1669466191854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\EERUMA~1\\AppData\\Local\\Temp\\rust_mozprofileeb9iBH"
+1669466192844	Marionette	INFO	Marionette enabled
+1669466192851	Marionette	INFO	Listening on port 56117
+Read port: 56117
+1669466193365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EERUMA~1\\AppData\\Local\\Temp\\rust_mozprofileeb9iBH\\search.json.mozlz4", (void 0)))
+JavaScript error: https://www.glassdoor.co.in/index.htm line 501 > injectedScript, line 1: ReferenceError: ttq is not defined
+1669466197909	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 7430 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.glassdoor.co.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.glassdoor.co.in."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1669466225886	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://www.glassdoor.co.in/member/home/index.htm line 501 > injectedScript, line 1: ReferenceError: ttq is not defined
+1669466226649	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/api979c0EJY6QQNrS8TSWwgKrshdt-vRMqEtOqF-hYY.js line 2 > eval line 1762 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669466284476	Marionette	INFO	Stopped listening on port 56117
